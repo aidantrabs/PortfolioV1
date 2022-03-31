@@ -8,19 +8,23 @@
      <!-- CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
      <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Philosopher&family=Playfair+Display&display=swap" rel="stylesheet"> 
 
      <!-- Scripts -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/d04011ef01.js" crossorigin="anonymous"></script>
 
      <title>Aidan Traboulay</title>
 </head>
 <body>
 
      <!--- Navbar -->
-     <section class="pb-5" id="navbar-section">
+     <section class="pb-5" id="navbar-s">
           <nav class="navbar navbar-expand-lg navbar-light py-4">
                <div class="container">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="#top">
                          <img src="./assets/brand.png" alt="logo" class="img-fluid" style="width: 4em;">
                     </a>
 
@@ -31,78 +35,191 @@
                     <div class="collapse navbar-collapse" id="header01">
                          <ul class="navbar-nav ms-auto mt-3 mt-lg-0 mb-3 mb-lg-0 me-4">
                            <li class="nav-item me-4"><a class="nav-link" href="#about">About</a></li>
-                           <li class="nav-item me-4"><a class="nav-link" href="#">Projects</a></li>
-                           <li class="nav-item me-4"><a class="nav-link" href="#">Contact</a></li>
+                           <li class="nav-item me-4"><a class="nav-link" href="#projects">Projects</a></li>
+                           <li class="nav-item me-4"><a class="nav-link" href="./assets/resume.pdf" target="_blank">Résumé</a></li>
+                           <li class="nav-item me-4"><a class="nav-link" href="#contact">Contact</a></li>
                          </ul>
                     </div>
                </div>
           </nav>
      </section>
-     
-     <!--- About Section -->
-     <section id="about">
+
+     <div class="spacer" style="width: 100%; height: 8em"></div>
+
+     <!--- Header Section -->
+     <section id="top">
           <div class="px-4 py-5 my-5 text-center" id="hero">
-               <h1 class="display-5 fw-bold">Aidan Traboulay</h1>
+               <h1 class="display-5 fw-bold">&lt;Aidan Traboulay/&gt;</h1>
                <div class="col-lg-6 mx-auto">
-               
                     <p class="lead mb-4">
+                         Student | Software Enthusiast
                     </p>
                </div>
           </div>
      </section>
 
-     <!--- Projects Section -->
-     <div class="carousel slide" id="projectCarousel" data-bs-ride="carousel">
-          <ol class="carousel-indicators">
-               <li data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active"></li>
-               <li data-bs-target="#projectCarousel" data-bs-slide-to="1"></li>
-          </ol>
-          <div class="carousel-inner">
-               <div class="carousel-item active">
-                    <div class="container" id="carousel-container">
-                         <h1>Example</h1>
-                         <p>
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam consequuntur libero odio nostrum laboriosam! Pariatur suscipit necessitatibus, tempora impedit quis nostrum quidem id magnam! Labore dignissimos totam laborum velit accusamus.
-                         </p>
+     <div class="spacer" style="width: 100%; height: 30em"></div>
 
-                         <a href="#" class="btn btn-lg btn-primary">
-                              Sign up today!
-                         </a>
+     <!--- About Section -->
+     <section id="about">
+          <h2 style="width: 90%;margin: 0 auto; text-align: center;">About</h2>
+          <hr>
+          <div class="spacer" style="width: 100%; height: 2em"></div>
+          <div class="container">
+               <div class="row">
+                    <p style="text-align: center;">
+                         I'm currently a computer science student at Wilfrid Laurier University,
+                         hailing from Trinidad and Tobago. From a young age, I found myself drawn
+                         to any type of technology I could get my hands on and as such, it led me
+                         down the path of pusuing a highly theoretical and technical degree - which
+                         I am absolutely in love with. Coupled with my passion to learn, I have found
+                         myself constantly learning new technologies and languages to build and innovate.
+                         <br>
+                         <br>
+                         Moreover, I'm also looking for Summer 2022 / Fall 2022 internships to further
+                         my knowledge and experience. In the meantime, I'm looking forward to working
+                         on a wide variety of projects and furthering my other passions, outside of the 
+                         field, such as improving on my cooking skills, reading more novels and, hopefully,
+                         finding a new hobby - potentially learning to play the violin.
+                         <br>
+                         <br>
+                         Find out more <a href="./assets/resume.pdf" target="_blank" rel="noreferrer">here</a>.
+                    </p>
+               </div>
+          </div> 
+     </section>
+
+     <div class="spacer" style="width: 100%; height: 13em"></div>
+
+     <!--- Projects Section -->
+     <section id="projects">
+          <h2 style="width: 90%;margin: 0 auto; text-align: center;">Projects</h2>
+          <hr>
+          <div class="spacer" style="width: 100%; height: 2em"></div>
+          <div class="carousel slide" id="projectCarousel" data-bs-ride="carousel">
+               <ol class="carousel-indicators">
+                    <li data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#projectCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#projectCarousel" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#projectCarousel" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#projectCarousel" data-bs-slide-to="4"></li>
+               </ol>
+               <div class="carousel-inner">
+                    <div class="carousel-item active">
+                         <div class="container" id="carousel-container">
+                              <h2>Tech Hunt</h2>
+                              <p>
+                                   Open source full stack application that allows software developers to search for, upload, favorite, comment and request to join other open source projects. 
+                              </p>
+
+                              <a href="https://techunt.herokuapp.com/" target="_blank" rel="noreferrer" class="btn btn-md btn-outline-light">
+                                   Live Demo
+                              </a>
+
+                              <a href="https://github.com/aidantrabs/TechHunt" target="_blank" rel="noreferrer"  class="btn btn-md btn-outline-light">
+                                   Source Code
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="carousel-item">
+                         <div class="container" id="carousel-container">
+                              <h2>Portfolio</h2>
+                              <p>
+                                   This website!
+                              </p>
+
+                              <a href="#" target="_blank" rel="noreferrer" class="btn btn-md btn-outline-light">
+                                   Live Demo
+                              </a>
+
+                              <a href="https://github.com/aidantrabs/portfolio-v1" target="_blank" rel="noreferrer" class="btn btn-md btn-outline-light">
+                                   Source Code
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="carousel-item">
+                         <div class="container" id="carousel-container">
+                              <h2>Mini Games</h2>
+                              <p>
+                                   Desktop application, built in Java, that contains two games, with instructions. Showcases use of Java Swing and AWT API. 
+                              </p>
+
+                              <a href="https://github.com/aidantrabs/MiniGames" target="_blank" rel="noreferrer" class="btn btn-md btn-outline-light">
+                                   Source Code
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="carousel-item">
+                         <div class="container" id="carousel-container">
+                              <h2>Smart Inventory</h2>
+                              <p>
+                                   Machine learning hackathon project built to enable businesses to predict future possible and optimal inventory volumes. 
+                              </p>
+
+                              <a href="https://github.com/aidantrabs/SmartInventory" target="_blank" rel="noreferrer" class="btn btn-md btn-outline-light">
+                                   Source Code
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="carousel-item">
+                         <div class="container" id="carousel-container">
+                              <h2>Calorify</h2>
+                              <p>
+                                   Flask project that utilizies the Nutritionix API to assist users in creating a better understanding of their diet with respect to calorie consumption and level of exercise.                               </p>
+
+                              <a href="https://github.com/aidantrabs/Calorify" target="_blank" rel="noreferrer" class="btn btn-md btn-outline-light">
+                                   Source Code
+                              </a>
+                         </div>
                     </div>
                </div>
 
-               <div class="carousel-item">
-                    <div class="container" id="carousel-container">
-                         <h1>Example</h1>
-                         <p>
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam consequuntur libero odio nostrum laboriosam! Pariatur suscipit necessitatibus, tempora impedit quis nostrum quidem id magnam! Labore dignissimos totam laborum velit accusamus.
-                         </p>
+               <a href="#projectCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                    <span class="sr-only"></span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true">
+                    </span>
+               </a>
 
-                         <a href="#" class="btn btn-lg btn-primary">
-                              Sign up today!
+               <a href="#projectCarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+                    <span class="sr-only"></span>
+                    <span class="carousel-control-next-icon" aria-hidden="true">
+                    </span>
+               </a>
+          </div>
+     </section>
+
+     <div class="spacer" style="width: 100%; height: 13em"></div>
+
+     <!--- Contact Section -->
+     <section id="contact">
+          <h2 style="width: 90%; margin: 0 auto; text-align: center;">Let's Connect!</h2>
+          <hr>
+          <div class="spacer" style="width: 100%; height: 2em"></div>
+          <div class="container">
+               <div class="row text-center">
+                    <ul>
+                         <a href="https://github.com/aidantrabs" style="color:black; text-decoration: none;" target="_blank" rel="noreferrer">
+                              <i class="fa-brands fa-github fa-3x me-4"></i>
+                         </a> 
+
+                         <a href="https://www.linkedin.com/in/aidan-traboulay/" style="color:black; text-decoration: none;" target="_blank" rel="noreferrer">
+                              <i class="fa-brands fa-linkedin fa-3x me-4"></i>
                          </a>
-                    </div>
+
+                         <a href="https://www.instagram.com/aidantrabss/" style="color:black; text-decoration: none;" target="_blank" rel="noreferrer">  
+                              <i class="fa-brands fa-instagram fa-3x me-4"></i>
+                         </a>
+
+                         <a href="mailto:trab5590@mylaurier.ca" style="color:black; text-decoration: none;" target="_blank" rel="noreferrer">
+                              <i class="fa-solid fa-envelope fa-3x me-4"></i>
+                         </a>
+                    </ul>
                </div>
           </div>
-
-          <a href="#projectCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
-               <span class="sr-only"></span>
-               <span class="carousel-control-prev-icon" aria-hidden="true">
-               </span>
-          </a>
-
-          <a href="#projectCarousel" class="carousel-control-next" role="button" data-bs-slide="next">
-               <span class="sr-only"></span>
-               <span class="carousel-control-next-icon" aria-hidden="true">
-               </span>
-          </a>
-     </div>
-
-     
-    
-
-
-     
-
+     </section>
 </body>
 </html>
