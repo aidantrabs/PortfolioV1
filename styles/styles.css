@@ -1,15 +1,54 @@
+h2,h1 {
+     font-family: 'Philosopher', sans-serif;
+     font-size: 40px;
+}
+
+p {
+     font-family: 'Playfair Display', serif;
+     font-size: 20.5px;
+}
 .carousel-item {
      height: 32rem;
-     background: #777;
+     background: rgb(0, 0, 0);
      color: white;
      position: relative;
 }
 
 #carousel-container {
      position: absolute;
-     bottom: 0;
+     text-align: center;
+     top: 40%;
      left: 0;
      right: 0;
      padding-bottom: 50px;
+     width: 90%;
+     margin: 0 auto;
 }
 
+hr {
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+     width: 90%;
+     margin: 0 auto;
+}
+
+hr:after {
+	content: '';
+	display: block;
+	margin-top: 2px;
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+@media (min-width: 576px) {
+
+     .card-deck {
+        margin-right: -10px;
+       margin-left: -10px;
+     }
+     .card-deck .card {
+       margin-right: 10px;
+       margin-left: 10px;
+       
+     }
+}
