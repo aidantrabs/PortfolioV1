@@ -16,7 +16,7 @@
 - This is my personal website to showcase myself, skills and interests.
 
 ## Live Preview
-- Click <a href="https://aidantraboulay.tech/" target="_blank" rel="noreferrer">here</a> to see the live site.
+- Click <a href="https://aidantraboulay-v1.netlify.app/" target="_blank" rel="noreferrer">here</a> to see the live site.
 
 
 ## Showcase
